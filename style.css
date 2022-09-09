@@ -426,3 +426,239 @@ ul {
 }
 
 /* CLIENT LOGO SECTION CSS END  */
+
+
+
+/* FORM SECTION CSS START */
+
+.quick-contact {
+    padding: 60px 0px;
+    background-image: url(https://placehold.jp/1520x560.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.contact-heading p {
+    padding: 30px 0px;
+    font-size: 32px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+
+}
+
+.left-input {
+    flex-basis: 30%;
+    margin: 0px 30px 0px 0px;
+
+}
+
+.left-input input[type="text"],
+input[type="tel"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px;
+    margin: 10px 0px;
+    background-color: #000;
+    opacity: 30%;
+    border: 1px solid #737E85;
+    color: #737E85;
+}
+
+.right-input {
+    flex-basis: 70%;
+}
+
+.right-input input[type="text"] {
+    width: 100%;
+    height: 90%;
+    padding: 10px 10px;
+    margin: 10px 0px;
+    background-color: #000;
+    opacity: 30%;
+    border: 2px solid #c2dae8;
+    color: #737E85;
+}
+
+.submit-btn {
+    padding: 15px 0px;
+    float: right;
+}
+
+.submit-btn .btn {
+    background-color: #C65822;
+    font-size: 18px;
+    color: #fff;
+    padding: 18px 18px;
+    border: 2px solid #C65822;
+
+}
+
+.submit-btn .btn:hover {
+    background-color: initial;
+    border: 2px solid #C65822;
+    font-size: 18px;
+    padding: 18px 18px;
+    color: #C65822;
+
+}
+
+/* FORM SECTION CSS END  */
+
+/* CONTACT SECTION CSS START */
+.contact {
+    background-color: #4F5C64;
+    padding: 100px 0px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+.address-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-icon {
+    height: 80px;
+    width: 80px;
+    background-color: #C65822;
+    border-radius: 50%;
+    border: 5px solid #737E85;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.address-icon i {
+    color: #fff;
+    font-size: 30px;
+}
+
+.address p {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    max-width: 300px;
+}
+
+.email-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-icon {
+    height: 80px;
+    width: 80px;
+    background-color: #C65822;
+    border-radius: 50%;
+    border: 5px solid #737E85;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-icon i {
+    color: #fff;
+    font-size: 30px;
+}
+
+.email a {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    max-width: 300px;
+}
+
+.phone-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-icon {
+    height: 80px;
+    width: 80px;
+    background-color: #C65822;
+    border-radius: 50%;
+    border: 5px solid #737E85;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-icon i {
+    color: #fff;
+    font-size: 30px;
+}
+
+.phone p {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    max-width: 300px;
+}
+
+.phone a {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-left: 15px;
+
+}
+
+/* CONTACT SECTION CSS END  */
+
+
+/* FOOTER SECTION CSS START */
+.footer {
+    background-color: #394449;
+    height: 70vh;
+    padding-top: 60px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.haber-footer p,
+a {
+    color: #fff;
+
+}
+
+.haber-footer span {
+
+    text-transform: uppercase;
+    font-size: 34px;
+}
+
+.haber-footer ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.haber-footer li i {
+    color: #C65822;
+    font-size: 36px;
+    padding-right: 26px;
+}
+
+/* FOOTER SECTION CSS END */
