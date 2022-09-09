@@ -59,3 +59,54 @@ ul {
 }
 
 /* BASE CSS END */
+
+
+/* HEADER SECTION CSS START */
+.header {
+    background-color: #424F54;
+    height: 125px;
+
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    padding: 22px 22px;
+}
+
+.menu li a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.menu li a:hover {
+    color: #C65822;
+}
+
+.s-icons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.s-icons li {
+    padding: 0px 10px;
+    font-size: 26px;
+
+}
+
+.s-icons li a {
+    color: #737E85;
+}
+
+/* HEADER SECTION CSS END  */
