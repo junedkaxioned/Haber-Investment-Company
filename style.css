@@ -293,3 +293,87 @@ ul {
 }
 
 /* ADVICE SECTION CSS END  */
+
+
+
+/* INVESTMENT SOLUTIONS AND SAVING MONEY SECTION CSS START */
+
+.sol {
+    display: flex;
+    width: 100%;
+}
+
+.investment-sol {
+    background-color: #C65822;
+    width: 50%;
+    color: #fff;
+    height: auto;
+    padding: 60px 30px;
+}
+
+.investment-sol h2 {
+    font-size: 30px;
+    padding-bottom: 30px
+}
+
+.investment-sol li::before {
+    content: "\f013";
+    font-family: "fontAwesome";
+    padding-right: 22px;
+}
+
+.investment-sol li {
+    font-size: 18px;
+    max-width: 450px;
+    line-height: 32px;
+}
+
+.learn-more-btn {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 18px 18px;
+    margin-top: 30px;
+}
+
+.learn-more-btn:hover {
+    color: #737E85;
+    background-color: #fff;
+
+}
+
+.saving-money {
+    background-color: #39434A;
+    width: 50%;
+    height: auto;
+    padding: 60px 30px;
+}
+
+.saving-money h2 {
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 30px
+}
+
+.saving-money li::before {
+    content: "\f013";
+    font-family: "fontAwesome";
+    padding-right: 22px;
+    color: #fff;
+}
+
+.saving-money li {
+    font-size: 18px;
+    max-width: 450px;
+    line-height: 32px;
+    color: #737E85;
+}
+
+.saving-money p {
+    color: #737E85;
+    font-size: 18px;
+
+}
+
+/* INVESTMENT SOLUTIONS AND SAVING MONEY SECTION CSS END  */
+
+
