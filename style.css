@@ -112,6 +112,33 @@ footer {
   color: #737e85;
 }
 
+.s-icons li:nth-child(1):hover  a{
+    color: #55acee;
+    transition: all 0.3s linear;
+    transform: scale(1.5);
+}
+.s-icons li:nth-child(2):hover  a{
+    color: #cd201f;
+    transition: all 0.3s linear;
+    transform: scale(1.5);
+}
+.s-icons li:nth-child(3):hover  a{
+    color: #f57d00;
+    transition: all 0.3s linear;
+    transform: scale(1.5);
+}
+.s-icons li:nth-child(4):hover  a{
+    color: #3b5998;
+    transition: all 0.3s linear;
+    transform: scale(1.5);
+}
+.s-icons li:nth-child(5):hover  a{
+    color: #dc4e41;
+    transition: all 0.3s linear;
+    transform: scale(1.5);
+}
+
+
 .mobile-navbar-btn {
   display: none;
   background: transparent;
@@ -318,6 +345,7 @@ input[type='checkbox'] {
   color: #39434a;
   font-size: 32px;
   padding: 10px 0px 18px 0px;
+  cursor: pointer;
 }
 
 .icon-btn i:hover {
@@ -524,6 +552,7 @@ input[type='tel'] {
   color: #fff;
   padding: 18px 18px;
   border: 2px solid #c65822;
+  cursor: pointer;
 }
 
 .submit-btn .btn:hover {
@@ -680,7 +709,24 @@ a {
   font-size: 36px;
   padding-right: 26px;
 }
-
+.haber-footer li:nth-child(1):hover i{
+color: #00405d;
+}
+.haber-footer li:nth-child(2):hover i{
+    color: #55acee;
+}
+.haber-footer li:nth-child(3):hover i{
+    color: #cd201f;
+}
+.haber-footer li:nth-child(4):hover i{
+    color: #f57d00;
+}
+.haber-footer li:nth-child(5):hover i{
+    color: #3b5998;
+}
+.haber-footer li:nth-child(6):hover i{
+    color: #dc4e41;
+}
 .map {
   margin-left: 350px;
   width: 100%;
