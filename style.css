@@ -997,6 +997,9 @@ a {
     margin: 15px 15px;
   }
 
+  .details{
+      padding: 0px;
+  }
   .email a,
   .address p,
   .phone p {
