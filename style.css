@@ -870,7 +870,12 @@ a {
   .client figure {
     margin: 15px 15px;
   }
-
+  .client-prev {
+      margin-left: -10px;
+  }
+  .client-next {
+    margin-right: -10px;
+}
   .form {
     flex-direction: column;
   }
@@ -948,7 +953,7 @@ a {
   .navbar .menu {
     background-color: #737e85;
     position: fixed;
-    top: 125px;
+    top: 90px;
     left: -100%;
     height: 100vh;
     width: 100%;
