@@ -112,32 +112,31 @@ footer {
   color: #737e85;
 }
 
-.s-icons li:nth-child(1):hover  a{
-    color: #55acee;
-    transition: all 0.3s linear;
-    transform: scale(1.5);
+.s-icons li:nth-child(1):hover a {
+  color: #55acee;
+  transition: all 0.3s linear;
+  transform: scale(1.5);
 }
-.s-icons li:nth-child(2):hover  a{
-    color: #cd201f;
-    transition: all 0.3s linear;
-    transform: scale(1.5);
+.s-icons li:nth-child(2):hover a {
+  color: #cd201f;
+  transition: all 0.3s linear;
+  transform: scale(1.5);
 }
-.s-icons li:nth-child(3):hover  a{
-    color: #f57d00;
-    transition: all 0.3s linear;
-    transform: scale(1.5);
+.s-icons li:nth-child(3):hover a {
+  color: #f57d00;
+  transition: all 0.3s linear;
+  transform: scale(1.5);
 }
-.s-icons li:nth-child(4):hover  a{
-    color: #3b5998;
-    transition: all 0.3s linear;
-    transform: scale(1.5);
+.s-icons li:nth-child(4):hover a {
+  color: #3b5998;
+  transition: all 0.3s linear;
+  transform: scale(1.5);
 }
-.s-icons li:nth-child(5):hover  a{
-    color: #dc4e41;
-    transition: all 0.3s linear;
-    transform: scale(1.5);
+.s-icons li:nth-child(5):hover a {
+  color: #dc4e41;
+  transition: all 0.3s linear;
+  transform: scale(1.5);
 }
-
 
 .mobile-navbar-btn {
   display: none;
@@ -689,7 +688,7 @@ input[type='tel'] {
 }
 
 .haber-footer p,
-a {
+.haber-footer a {
   color: #fff;
 }
 
@@ -709,24 +708,25 @@ a {
   font-size: 36px;
   padding-right: 26px;
 }
-.haber-footer li:nth-child(1):hover i{
-color: #00405d;
+.haber-footer li:nth-child(1):hover i {
+  color: #00405d;
 }
-.haber-footer li:nth-child(2):hover i{
-    color: #55acee;
+.haber-footer li:nth-child(2):hover i {
+  color: #55acee;
 }
-.haber-footer li:nth-child(3):hover i{
-    color: #cd201f;
+.haber-footer li:nth-child(3):hover i {
+  color: #cd201f;
 }
-.haber-footer li:nth-child(4):hover i{
-    color: #f57d00;
+.haber-footer li:nth-child(4):hover i {
+  color: #f57d00;
 }
-.haber-footer li:nth-child(5):hover i{
-    color: #3b5998;
+.haber-footer li:nth-child(5):hover i {
+  color: #3b5998;
 }
-.haber-footer li:nth-child(6):hover i{
-    color: #dc4e41;
+.haber-footer li:nth-child(6):hover i {
+  color: #dc4e41;
 }
+
 .map {
   margin-left: 350px;
   width: 100%;
@@ -735,8 +735,6 @@ color: #00405d;
 /* FOOTER SECTION CSS END */
 
 /* Responsive design */
-
-
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
   .focus-card {
@@ -1038,8 +1036,8 @@ color: #00405d;
     margin: 15px 15px;
   }
 
-  .details{
-      padding: 0px;
+  .details {
+    padding: 0px;
   }
   .email a,
   .address p,
