@@ -690,12 +690,7 @@ a {
 
 /* Responsive design */
 
-/* 1024px RESPONSIVE START */
 
-@media only screen and (max-width=1024px) {
-}
-
-/* 1024px RESPONSIVE END */
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
   .focus-card {
@@ -870,12 +865,7 @@ a {
   .client figure {
     margin: 15px 15px;
   }
-  .client-prev {
-      margin-left: -10px;
-  }
-  .client-next {
-    margin-right: -10px;
-}
+
   .form {
     flex-direction: column;
   }
@@ -953,7 +943,7 @@ a {
   .navbar .menu {
     background-color: #737e85;
     position: fixed;
-    top: 90px;
+    top: 125px;
     left: -100%;
     height: 100vh;
     width: 100%;
